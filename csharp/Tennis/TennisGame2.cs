@@ -9,6 +9,7 @@ namespace Tennis
         private string p2res = "";
         private string player1Name;
         private string player2Name;
+        private string test = "";
 
         public TennisGame2(string player1Name, string player2Name)
         {
@@ -21,7 +22,7 @@ namespace Tennis
         {
             var score = "";
             if (p1point == p2point && p1point < 3)
-            {
+            {k
                 if (p1point == 0)
                     score = "Love";
                 if (p1point == 1)
